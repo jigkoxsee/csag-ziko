@@ -233,6 +233,7 @@ func main() {
 	}
 	text, _ = reader.ReadString('\n')
 	fmt.Println()
+	color.Unset()
 	//	rhel := []string{
 	fmt.Println("                                 +MMMMMMMMMMMMMMMMMMMMMMMMM~                                        ")
 	fmt.Println("                             $MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMI                                    ")
